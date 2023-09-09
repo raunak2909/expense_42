@@ -20,6 +20,7 @@ class MainActivity : AppCompatActivity() {
 
         val apiHelper = ApiHelper.create()
 
+        //For searching Wallpaper
         apiHelper.searchWallpaper("nXWH9BLpCYtVtyjDTbJB3Hf20uneSxZcYisVLVmNDV4PamGm6EeVDgZm","Lion").enqueue(object : Callback<PhotoDataModel>{
             override fun onResponse(call: Call<PhotoDataModel>, response: Response<PhotoDataModel>) {
                 if(response.code()==200){
