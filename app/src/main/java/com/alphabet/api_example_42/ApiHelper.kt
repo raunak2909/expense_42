@@ -30,8 +30,8 @@ interface ApiHelper {
 
     }
 
-    @GET("products")
-    abstract fun getProducts(): Call<DataModel>
+   /* @GET("products")
+    abstract fun getProducts(): Call<DataModel>*/
 
 
     //@Headers("Authorization:nXWH9BLpCYtVtyjDTbJB3Hf20uneSxZcYisVLVmNDV4PamGm6EeVDgZm")
